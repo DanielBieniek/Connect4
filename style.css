@@ -1,0 +1,82 @@
+.unselectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	cursor:default;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+	font-family: Helvetica, sans-serif;
+	color:silver;
+	text-align: center;
+}
+
+#ready {
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	border-radius: 5px;
+	background-color: #f00;
+}
+
+#time {
+	position: absolute;
+	right: 13px;
+	top: 1px;
+	font-size: 9px;
+}
+
+#wrapper {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+#paper {
+	margin-top: 15%;
+	margin-left: 50px;
+	float:left;
+}
+
+#info {
+	width: 300px;
+	font-size: 30px;
+	margin-top:30%;
+	float:left;
+}
+
+#info button {
+	background-color: silver;
+	color: #222;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	padding: 15px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+#info button:hover {
+	background-color: #DDD;
+}
+
+#rules {
+	width: 300px;
+	margin-top:25%;
+	font-size:18px;
+	float:left;
+	margin-left: 50px;
+}
+
+#rules > h1 {
+	color: #DDD;
+}
+
+#rules > p > span {
+	color: #DDD;
+	font-weight:bold;
+}
